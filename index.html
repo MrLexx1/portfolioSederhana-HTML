@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebSite - Portfolio - Sederhana</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="main-container">
+        <div class="nav">
+          <!-- <div class="logo"> -->
+          <a href="/" class="logo">MUH</a>
+
+          <nav>
+            <ul>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#Contact">Contact</a></li>
+                <a href="/resume.pdf" target="_blank">
+                  <button class="btn">Resume</button>
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="burger">
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+            <div class="line-3"></div>
+          </div>
+          <!-- </div> -->
+        </div>
+
+        <section id="hero">
+          <div class="hero-left">
+            <h3 class="pre-title">My Name Is</h3>
+            <h1 class="hero-name">Muh <span>Ilman</span></h1>
+            <p>
+              Pengembang front-end kreatif dengan lebih dari +5 tahun pengalaman
+              di perusahaan dan stratup perusahaan. Mahir dalam JavaScript dan
+              bereaksi. bergairah tentang UI / UX
+            </p>
+          </div>
+          <div class="hero-right">
+            <img
+              src="./img/sapiens .png"
+              alt="Person Standing"
+              height="
+            525px"
+            />
+          </div>
+        </section>
+      </div>
+    </header>
+    <!-- END OF HEADER -->
+
+    <!-- Services -->
+    <section id="services">
+      <div class="services main-container">
+        <h3 class="pre-title">Services</h3>
+        <h1 class="section-title services-title">Speacialized in</h1>
+
+        <div class="grid-3">
+          <!-- Service 1 -->
+          <div class="service">
+            <div class="service-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm5 17h-10v-2h10v2zm.428-7.096c-.412.19-.428.658-.428 1.085v3.011h-10v-3.011c0-.427-.016-.896-.428-1.085-.34-.157-.572-.506-.572-.904 0-.552.448-1 1-1 .75 0 1.331.843.799 1.597-.268.38-.203.608-.022.875.382.563.936 1.028 1.723 1.028 1.261 0 1.927-1.042 2.065-1.924.048-.307.075-.537-.218-.822-.201-.195-.347-.452-.347-.754 0-.552.448-1 1-1s1 .448 1 1c0 .302-.146.559-.348.754-.293.285-.266.515-.218.822.139.882.805 1.924 2.065 1.924.787 0 1.341-.465 1.724-1.029.181-.266.245-.495-.022-.875-.532-.753.049-1.596.799-1.596.552 0 1 .448 1 1 0 .398-.232.747-.572.904z"
+                />
+              </svg>
+            </div>
+            <h4>UI/UX Design</h4>
+            <p>
+              Ubah apa yang ada dalam pikiran Anda tentang produk digital
+              menjadi kenyataan. untuk platform apa pun yang Anda pertimbangkan
+            </p>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="service">
+            <div class="service-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M24 20c0 2.209-1.791 4-4 4s-4-1.791-4-4 1.791-4 4-4 4 1.791 4 4zm-20-4c-2.209 0-4 1.791-4 4s1.791 4 4 4 4-1.791 4-4-1.791-4-4-4zm8-16c-2.209 0-4 1.791-4 4s1.791 4 4 4 4-1.791 4-4-1.791-4-4-4zm3.873 15.655l-2.873-2.404v-3.341c-.326.055-.658.09-1 .09s-.674-.035-1-.09v3.341l-2.873 2.404c.484.46.892 1 1.201 1.598l2.672-2.253 2.672 2.253c.309-.598.717-1.137 1.201-1.598z"
+                />
+              </svg>
+            </div>
+            <h4>Application Developer</h4>
+            <p>
+              Merancang, membangun, dan mengimplementasikan aplikasi Anda dengan
+              dokumentasi standar
+            </p>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="service">
+            <div class="service-icon">
+              <svg
+                width="24"
+                height="24"
+                xmlns="http://www.w3.org/2000/svg"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+              >
+                <path
+                  d="M15.246 17c-.927 3.701-2.547 6-3.246 7-.699-1-2.32-3.298-3.246-7h6.492zm7.664 0c-1.558 3.391-4.65 5.933-8.386 6.733 1.315-2.068 2.242-4.362 2.777-6.733h5.609zm-21.82 0h5.609c.539 2.386 1.47 4.678 2.777 6.733-3.736-.8-6.828-3.342-8.386-6.733zm14.55-2h-7.28c-.29-1.985-.29-4.014 0-6h7.281c.288 1.986.288 4.015-.001 6zm-9.299 0h-5.962c-.248-.958-.379-1.964-.379-3s.131-2.041.379-3h5.962c-.263 1.988-.263 4.012 0 6zm17.28 0h-5.963c.265-1.988.265-4.012.001-6h5.962c.247.959.379 1.964.379 3s-.132 2.042-.379 3zm-8.375-8h-6.492c.925-3.702 2.546-6 3.246-7 1.194 1.708 2.444 3.799 3.246 7zm-8.548-.001h-5.609c1.559-3.39 4.651-5.932 8.387-6.733-1.237 1.94-2.214 4.237-2.778 6.733zm16.212 0h-5.609c-.557-2.462-1.513-4.75-2.778-6.733 3.736.801 6.829 3.343 8.387 6.733z"
+                />
+              </svg>
+            </div>
+            <h4>Web Development</h4>
+            <p>
+              Buat dan pelihara situs web Anda dan juga jaga kinerja dan
+              kapasitas lalu lintasnya
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Of Services -->
+
+    <!-- CONTACT -->
+    <section id="services">
+      <div class="services main-container">
+        <h3 class="pre-title">Contact</h3>
+        <h1 class="section-title services-title">Get In Touch</h1>
+
+    <form action="submit_form.php" method="post" class="contact-form">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div class="form-group">
+        <label for="email">Password</label>
+        <input type="password" id="password" name="password" required />
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </div>
+</section>
+<!-- END OF CONTACT -->
+
+<!-- Footer -->
+<center>
+  <footer>
+<div class="footer-socials">
+  <a href="https://www.instagram.com/___mhmmddddd/" target="_blank">
+    <img src="img/instagram.png" alt="Facebook" />
+  </a>
+  <a href="https://github.com/MrLexx1" target="_blank">
+    <img src="img/github.png" alt="Twitter" />
+  </a>
+  <a href="https://web.whatsapp.com/" target="_blank">
+    <img src="img/whatsapp.png" alt="LinkedIn" />
+  </a>
+</div>
+</div>
+<div class="footer-bottom">
+  <p>&copy; 2024 Muh Ilman. All rights reserved.</p>
+</div>
+</footer>
+</center>
+<!-- End Of Footer -->
+
+<script src="index.js"></script>
+  </body>
+</html>
